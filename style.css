@@ -13,6 +13,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 70px;
 
 }
 
@@ -24,14 +25,13 @@ body{
 }
 
 .header-top .right-header{
-    font-size:18px;
-    gap:4px
+    font-size:18px
 }
 
 ul{
     list-style: none;
     display:flex;
-    gap:30px
+    
 }
 
 .right-header a{
@@ -40,6 +40,49 @@ ul{
     margin-left:8px
 }
 
+
+.header-bottom{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header-bottom .left-header{
+    margin-right: 10px;
+
+}
+
+
+img{
+    width:450px;
+    height:300px
+}
+
+.header-main-text{
+    font-size: 48px;
+    font-weight: bolder;
+    color:#F9FAF8;
+    margin:6px
+    
+}
+
+.header-secondary-text{
+    font-size: 18px;
+    color:#F9FAF8;
+    margin:6px
+}
+
+button{
+    background-color: #3882F6;
+    padding:6px 15px;
+    margin:6px;
+    border:none;
+    color:#F9FAF8;
+    font-size: 18px;
+    border-radius:8px
+    
+}
 
 
 
