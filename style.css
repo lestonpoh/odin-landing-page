@@ -1,0 +1,47 @@
+body{
+    display:flex;
+    flex-direction: column;
+}
+
+.header-container{
+    background: #1F2937;
+    padding:12px
+
+}
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header-top .left-header{
+    font-size:24px;
+    font-weight: bold;
+    color:#F9FAF8
+    
+}
+
+.header-top .right-header{
+    font-size:18px;
+    gap:4px
+}
+
+ul{
+    list-style: none;
+    display:flex;
+    gap:30px
+}
+
+.right-header a{
+    text-decoration: none;
+    color:#E5E7EB;
+    margin-left:8px
+}
+
+
+
+
+
+
